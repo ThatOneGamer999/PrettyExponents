@@ -1,4 +1,11 @@
+import sys
+
+args = str(sys.argv)
+
+print args
 while 1:
+ if "-q" in args:
+     break
  exp = int(raw_input('Power to? > '))
  num = int(raw_input('Number? > '))
  i = 0
